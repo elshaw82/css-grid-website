@@ -81,7 +81,7 @@ body {
 }
 
 .grid-items > img {
-   max-width:390px;
+    width:100%;
 }
 
 .grid-item-two {
@@ -159,6 +159,10 @@ body {
        width:100%;
        text-align: right;
     }
+
+    .grid-items > img {
+       max-width:390px;
+    }    
 
     .mobile {
         display:none;
