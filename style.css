@@ -42,6 +42,10 @@ body {
     font-size:24px;
 }
 
+.header > h6 {
+    width:100%;
+}
+
 .header > .logo {
     width:30%;
     z-index: 2;
@@ -73,20 +77,21 @@ body {
 .grid-items {
     background-color:#cccccc;
     overflow: hidden;
-    
+   
 }
 
 .grid-items > img {
-    width:100%;
+   max-width:390px;
 }
-
 
 .grid-item-two {
     grid-column: 2 / 4;
     grid-row: 1 / 3;
     background-size: cover;
     background-position: center; 
+    object-fit: cover;
 }
+
 
 .grid-item-four {
     grid-row: 3 / 5;
@@ -159,7 +164,44 @@ body {
         display:none;
     }
 
-    footer {
-        margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
-      }
+ 
+.grid-item-two {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-size: cover;
+    background-position: center; 
+}
+
+.grid-item-four {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-size: cover;
+    background-position: center;
+}   
+
+.grid-item-eight {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-item-6 {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.grid-item-twelve {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    background-size: cover;
+    background-position: center;
+} 
+
+.footer {
+    text-align: center;
+}
 }
