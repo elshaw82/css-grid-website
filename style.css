@@ -145,13 +145,16 @@ body {
     }
     .logo {
         padding:20px;
+        width:20%;
     }
 
     .main-nav {
-        position: fixed; /* Set the navbar to fixed position */
-        bottom: 0; /* Position the navbar at the bottom of the page */
-        width: 100%; /* Full width */
+       width:100%;
+       text-align: right;
+    }
 
+    .mobile {
+        display:none;
     }
 
     footer {
