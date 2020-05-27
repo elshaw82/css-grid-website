@@ -42,7 +42,6 @@ body {
     font-size:24px;
 }
 
-
 .header > .logo {
     width:30%;
     z-index: 2;
@@ -78,7 +77,7 @@ body {
 }
 
 .grid-items > img {
-width:100%;
+    width:100%;
 }
 
 
@@ -93,9 +92,7 @@ width:100%;
     grid-row: 3 / 5;
     background-size: cover;
     background-position: center
-}
-
-
+}   
 
 .grid-item-eight {
     grid-column: 2 / 3;
@@ -139,3 +136,25 @@ width:100%;
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+   
+    .container {
+        max-width: 600px;
+        height:auto;
+        margin:auto;
+    }
+    .logo {
+        padding:20px;
+    }
+
+    .main-nav {
+        position: fixed; /* Set the navbar to fixed position */
+        bottom: 0; /* Position the navbar at the bottom of the page */
+        width: 100%; /* Full width */
+
+    }
+
+    footer {
+        margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+      }
+}
